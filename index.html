@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>MyPortfolio</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="logo" ref="#">MY Portfolio</a>
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/video/Typing.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1>Vrutika's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br> -Joseph Weizenbaum
+                    <br>
+                    <br> My name is Vrutika. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <h1>About</h1>
+
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/img1.jpg" alt="Replace with your own image and description">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">            
+                <p>Hello, My name is Vrutika. I have studied computer science.<br/><br/>
+                    I have 4 year of experience in web developer at India. I worked as full-stack developer and now I'm looking for job for web developing or web designing.<br/><br/>
+                    I am a normal guy who enjoys hiking and spending time with friends, while not working or studying, which takes most of my time of course.<br/><br/>
+                    I am ambitious and hard-working and believe you’ll give me a chance to prove my words.
+                </p>
+            </div>
+        </div>
+        <div class="Row about1">
+            <div class="col1">
+                <h2>Eductication</h2>
+                <ul>
+                    <li>
+                        <h5>Sutex bank collage of computer application & science</h5>
+                        <p>Bachelor of computer application</p>
+                    </li>
+                    <li>
+                        <h5>Surash gyan vihar university</h5>
+                        <p>Master of computer application</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col2">
+                <h2>experience</h2>
+                <ul>
+                    <li>
+                        <h5>Web developer & designer</h5>
+                        <p>Developer infotach</p>
+                    </li>                    
+                </ul>
+            </div>
+            <div class="col3">
+                <h2>My Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>                    
+                    <li>JavaScript</li>                    
+                    <li>Jquery</li>                    
+                    <li>Ajax</li>                    
+                    <li>PHP (Core, CodeIgniter, Opencart)</li>
+                    <li>API</li>              
+                </ul>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+             <h1>GitHub</h1>
+            <!--Left column-->
+            <div>
+                <p class="center">
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Vrutika5398" target="_blank">My Github</a></p>
+                </p>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <h1>Contact</h1>
+            <div class="Column_tall">
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <textarea id="Message" name="Message" placeholder="Please write your message here" rows="4"></textarea>
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">Copyright &copy And Made With Love All Rights Reserved.</p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
